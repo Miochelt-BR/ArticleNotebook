@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caderno de Artigos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Caderno de Artigos</h1>
+    <button id="toggle-theme">🌙</button>
+  </header>
+
+  <main>
+    <section id="add-article">
+      <h2>Adicionar Novo Artigo</h2>
+      <input type="text" id="article-title" placeholder="Título do artigo">
+      <textarea id="article-content" placeholder="Escreva seu artigo aqui..."></textarea>
+      <input type="file" id="article-image" accept="image/*">
+      <button id="save-article">Salvar Artigo</button>
+    </section>
+
+    <section id="articles">
+      <h2>Artigos Publicados</h2>
+      <div id="articles-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
